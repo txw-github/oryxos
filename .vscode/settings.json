@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "python.languageServer": "Default",
+    "python.analysis.typeCheckingMode": "off"
+}

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:qqtang.cloud)",
+      "Read(//d/Desktop/codeai/mq9-main/website/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -m 10 \"https://qqtang.cloud/\")",
+      "Bash(curl -s -m 10 \"https://qqtang.cloud/\")",
+      "Bash(nslookup qqtang.cloud)",
+      "Bash(curl -sI -m 10 \"https://qqtang.cloud/\")",
+      "Bash(gh auth *)",
+      "Read(//d/Desktop/codeai/**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/10142/AppData/Local/Programs/**)",
+      "Read(//c/Users/10142/.local/bin/**)",
+      "Bash(git config *)",
+      "Bash(curl -s -m 15 \"https://api.github.com/repos/oryx-labs/oryxos\")",
+      "Bash(curl -sI -m 10 \"https://oryx-labs.github.io/oryxos/\")",
+      "Bash(curl -s -m 15 \"https://api.github.com/repos/oryx-labs/oryxos/contents/.github/workflows\")",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(x['name']\\) for x in d]\")",
+      "Bash(curl -s -m 15 \"https://raw.githubusercontent.com/oryx-labs/oryxos/main/.github/workflows/deploy-pages.yml\")",
+      "Bash(curl -s -m 15 \"https://raw.githubusercontent.com/oryx-labs/oryxos/main/.github/workflows/docs.yml\")"
+    ]
+  }
+}

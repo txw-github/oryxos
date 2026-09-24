@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="190" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">OryxOS</title>
+  <desc id="desc">OryxOS logo: an abstract oryx horn surrounding a luminous system core.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10253b"/><stop offset="1" stop-color="#1d4260"/></linearGradient>
+    <linearGradient id="horn" x1=".15" y1=".9" x2=".8" y2=".1"><stop stop-color="#71e0c1"/><stop offset="1" stop-color="#69b8ff"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#f4fffc"/><stop offset=".42" stop-color="#8af0d0"/><stop offset="1" stop-color="#36a9b0"/></radialGradient>
+    <filter id="glow" x="-.8" y="-.8" width="2.6" height="2.6"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="10" y="10" width="170" height="170" rx="42" fill="url(#field)"/>
+  <path d="M91 138 C61 130 43 111 43 84 C43 56 60 38 84 33 C103 29 119 36 128 48 C115 43 103 44 94 51 C81 60 76 74 79 88 C82 102 91 111 105 116" fill="none" stroke="url(#horn)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M91 138 C119 130 137 111 137 84 C137 66 129 52 117 43 C126 58 126 73 120 86 C114 99 103 108 89 114" fill="none" stroke="url(#horn)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".84"/>
+  <path d="M75 121 L107 145 M107 121 L75 145" fill="none" stroke="#d9f9f1" stroke-width="5" stroke-linecap="round" opacity=".92"/>
+  <circle cx="91" cy="83" r="15" fill="#58d2c0" opacity=".2" filter="url(#glow)"/><circle cx="91" cy="83" r="8" fill="url(#core)"/><circle cx="91" cy="83" r="2.5" fill="#fff"/>
+  <text x="211" y="105" fill="#142b40" font-family="Segoe UI, Arial, sans-serif" font-size="61" font-weight="700" letter-spacing="-2.5">Oryx<tspan fill="#2a9c91">OS</tspan></text>
+  <text x="215" y="139" fill="#657b8d" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.1">PRIVATE AGENT OPERATING SYSTEM</text>
+</svg>

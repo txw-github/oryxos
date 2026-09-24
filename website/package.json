@@ -1,0 +1,14 @@
+{
+  "name": "oryxos-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OryxOS official website — VitePress",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  }
+}
